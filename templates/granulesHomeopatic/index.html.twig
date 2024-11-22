@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title "Homéopathie" %}
+
+{% block body %}
+
+Liste de mes granules homéopathique
+
+
+<ul>
+    <li>
+    <a href="{{ path('homeopatic.show',{id: 1, slug: 'Kalium Carbonicum'} )}}">Kalium Carbonicum</a>
+    </li>
+</ul>
+
+{% endblock %}

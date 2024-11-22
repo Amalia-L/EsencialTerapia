@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title "Huiles essentielles" %}
+
+{% block body %}
+
+Liste de toutes mes huiles essentielles
+
+<ul>
+    <li>
+    <a href="{{ url('oil.show',{id: 1, slug: 'TeeTrea'} )}}">Tea Tree</a>
+    </li>
+</ul>
+
+{% endblock %}
